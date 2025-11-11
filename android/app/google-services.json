@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "589830493887",
+    "project_id": "flutter-turism",
+    "storage_bucket": "flutter-turism.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589830493887:android:f5a555e210338ff5d1580a",
+        "android_client_info": {
+          "package_name": "com.example.flutter_turism"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0PojrbFVVXzbCmjk0TkM6MncCEKMaHnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

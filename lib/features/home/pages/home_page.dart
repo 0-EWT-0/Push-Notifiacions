@@ -26,6 +26,7 @@ class HomePage extends ConsumerWidget {
                     title: 'Novedad turística',
                     body: 'Nueva promo en Quintana Roo 🌴',
                     payload: '/promo',
+                    assetImage: 'assets/images/imageC.jpg',
                   );
               ref.read(badgeCountProvider.notifier).state++;
             },
@@ -48,6 +49,7 @@ class HomePage extends ConsumerWidget {
                     title: 'Explora ${d['nombre']}',
                     body: 'Descubre ${d['nombre']} (${d['tipo']})',
                     payload: '/destino/${d['nombre']}',
+                    assetImage: 'assets/images/imageC.jpg',
                   );
               ref.read(badgeCountProvider.notifier).state++;
             },
